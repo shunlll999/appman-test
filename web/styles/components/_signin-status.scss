@@ -1,0 +1,9 @@
+.signin-status {
+  color: red;
+  display: none;
+  padding: 0.5rem 0 1rem 8%;
+
+  &.show {
+    display: block;
+  }
+}

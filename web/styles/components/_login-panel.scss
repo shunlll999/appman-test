@@ -1,0 +1,64 @@
+.login-panel {
+  margin:  auto;
+  width: 600px;
+  box-shadow: 1px 1px 1px 1px #888888;
+  background-color: #f2f2f2;
+  border-radius: 0.05rem;
+
+  &__brand {
+    width: 180px;
+    padding-left: 35%;
+  }
+
+  &__form-container {
+    margin: auto;
+
+    &--label-title {
+      width: 100%;
+      padding: 0 0 0.5rem 8%;
+    }
+    
+    &--input-form {
+      width: 80%;
+      height: 45px;
+      margin:0 0 1rem 8%;
+
+      font-size: 1rem;
+      border-radius: 1rem;
+      padding-left: 1rem;
+      border: 0.1rem solid #cccccc;
+      outline: none;
+
+      &:focus {
+        border: 0.1rem solid #242526;
+      }
+    }
+  }
+
+  &__signin {
+    width: 150px;
+    height: 60px;
+    border-radius: 5px;
+    font-size: 1rem;
+    border-color: none;
+    outline: none;
+    background-color: deepskyblue;
+    color: #fff;
+    margin-left: 37%;
+  }
+
+  &__footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+
+    a {
+      color: deepskyblue;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
